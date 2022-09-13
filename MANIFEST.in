@@ -1,0 +1,2 @@
+include *.txt README LICENSE AUTHORS CHANGELOG
+global-include *.pyx
