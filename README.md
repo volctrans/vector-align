@@ -5,6 +5,8 @@ This is a production-ready tool for align parallel documents to sentences withou
 
 Instead of [LASER](https://github.com/facebookresearch/LASER), we use [LaBSE](https://arxiv.org/abs/2007.01852) from [sentence-transformers](https://github.com/UKPLab/sentence-transformers) pre-trained models for its better performance in parallel text mining task.
 
+To support the specific African languages in WMT22, we fork from [laserembeddings](https://github.com/yannvgn/laserembeddings) and integrate sentence pieces tokenizer in [this repository](https://github.com/volctrans/laserembeddings).
+
 # Installation (Recommend)
 ```Bash
 pip3 setup.py install 
